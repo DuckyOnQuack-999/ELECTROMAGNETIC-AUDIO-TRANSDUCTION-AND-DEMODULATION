@@ -125,11 +125,13 @@ Yes. Electricity is the primary way we capture, transfer, and play back audio.
 #### The 3-Step Process
 
 ```mermaid
+
 flowchart LR
     A[Sound Wave] --> B[Microphone / Input]
     B --> C[Electrical Signal / Wire]
     C --> D[Speaker / Output]
     D --> E[Sound Wave]
+    
 ```
 
 1. **Conversion to Electricity (Input):**
@@ -165,9 +167,11 @@ Electricity cannot travel through air on its own without dangerous high-voltage 
 #### Universal 3-Step Formula
 
 ```mermaid
+
 flowchart LR
     A[Encode: Electricity to Modulated Pattern] --> B[Transmit: Radio or Light Wave]
     B --> C[Decode: Wave to Electricity to Speaker]
+    
 ```
 
 ---
